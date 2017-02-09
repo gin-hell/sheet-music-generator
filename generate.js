@@ -30,7 +30,7 @@ for (var i = 0; i < textNodes.length; i++) {
 
 		} else {
 
-			text = text.substring(0, j) + "\xa0" + text.substring(j+1, text.length);
+			text = text.substring(0, j) + "	" + text.substring(j+1, text.length);
 
 		}
 
