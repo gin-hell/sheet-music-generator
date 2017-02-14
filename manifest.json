@@ -11,6 +11,10 @@
 
     "background": {
         "scripts": ["background.js"]
-    }
+    },
+
+    "web_accessible_resources": [
+        "OpusStd.otf"
+    ]
 
 }

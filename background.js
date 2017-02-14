@@ -8,7 +8,7 @@ browser.contextMenus.create({
 
 browser.contextMenus.onClicked.addListener(function(info, tab) {
 
-	var insert = browser.tabs.insertCSS({file: "style.css"});
+	var insert = browser.tabs.insertCSS({file: "styles.css"});
 	insert.then(null, console.log("error"));
 
 	if (info.menuItemId == "generate") {
