@@ -3,7 +3,7 @@
 
 
 
-var noteheads = ['q', 'Q', 'h', 'H', 'w', 'E', 'W', 'M', 'O'];
+var noteheads = ['q', 'Q', 'h', 'H', 'w', 'E', 'W', 'M', 'O', '?', 'B', 'C', 'X', 'x', 'b', 'c', 'n', '&'];
 
 // var text = document.body.innerText;
 
@@ -24,6 +24,11 @@ function findTextNodes(current) {
 
 	}
 }
+
+document.body.style.fontFamily = "jenFont";
+document.body.style.fontSize = "24pt";
+
+console.log("done changing font");
 
 findTextNodes(document.body);
 
@@ -57,6 +62,4 @@ for (var i = 0; i < textNodes.length; i++) {
 console.log("done changing letters");
 
 
-document.body.style.fontFamily = "jenFont";
 
-console.log("done changing font");
