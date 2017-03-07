@@ -22,7 +22,7 @@ browser.contextMenus.onClicked.addListener(function(info, tab) {
 	    browser.contextMenus.create({
 
 			id: "stop",
-			title: "Please no More Sheetmusic!"
+			title: "Please No More Sheetmusic!"
 
 		});	
   	}

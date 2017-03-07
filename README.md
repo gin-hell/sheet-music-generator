@@ -4,11 +4,11 @@
 
 the sheetmusic generator is a plug-in for firefox made by [jen hill](http://jh-sound.com) for [RAGE thormbones](http://www.ragethormbones.rocks/)
 
-![](images/menu.png)
+![](images/before.png)
 
 after installing the plug-in, simply ctrl+click or two-finger click anywhere on the desired webpage and select "Turn This Page Into Sheetmusic!"
 
-![](images/after.png)
+![](images/menu.png)
 
 from that moment on, all pages navigated to through clicking on a link will be automatically translated. to stop, ctrl+click and select "Please No More Sheetmusic!"
 
