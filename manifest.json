@@ -1,12 +1,20 @@
 {
 
     "manifest_version": 2,
-    "name": "sheet-music-generator",
+    "name": "Sheetmusic Generator",
     "version": "1.0",
 
+    "description": "firefox plug-in that turns web text into musical notation",
+
+    "icons": {
+        "48": "images/icon.png"
+    },
+
     "permissions": [
+        "<all_urls>",
         "activeTab",
-        "contextMenus"
+        "contextMenus",
+        "webNavigation"
     ],
 
     "background": {
@@ -14,7 +22,8 @@
     },
 
     "web_accessible_resources": [
-        "OpusStd.otf"
+        "OpusStd.otf",
+        "images/5-line-staff.png"
     ]
 
 }

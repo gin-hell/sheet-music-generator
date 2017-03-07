@@ -8,8 +8,7 @@ browser.contextMenus.create({
 
 browser.contextMenus.onClicked.addListener(function(info, tab) {
 
-	var insert = browser.tabs.insertCSS({file: "styles.css"});
-	insert.then(null, console.log("error"));
+	browser.tabs.insertCSS({file: "styles.css"});
 
 	if (info.menuItemId == "generate") {
 
@@ -17,5 +16,36 @@ browser.contextMenus.onClicked.addListener(function(info, tab) {
 
     		file: "generate.js"
     	});
+
+    	browser.webNavigation.onCommitted.addListener(committed);
+
+	    browser.contextMenus.create({
+
+			id: "stop",
+			title: "Please no More Sheetmusic!"
+
+		});	
   	}
+
+  	else if (info.menuItemId == "stop") {
+
+  		browser.webNavigation.onCommitted.removeListener(committed);
+  	}
+
+
+
 });
+
+function committed(details) {
+ 	if (details.transitionType === "link"){
+
+		browser.tabs.insertCSS({file: "styles.css"});
+
+		browser.tabs.executeScript({file: "generate.js" });
+	}
+}
+
+
+
+
+
