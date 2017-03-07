@@ -1,4 +1,4 @@
-# sheet-music-generator
+# Sheetmusic Generator
 
 ![](images/after.png)
 
