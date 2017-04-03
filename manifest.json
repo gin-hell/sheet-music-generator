@@ -4,7 +4,7 @@
     "name": "Note-ify",
     "version": "1",
 
-    "description": "firefox plug-in that turns web text into musical notation",
+    "description": "firefox add-on that turns web text into musical notation",
 
     "icons": {
         "48": "images/icon.png"
