@@ -32,6 +32,8 @@ browser.contextMenus.onClicked.addListener(function(info, tab) {
   	else if (info.menuItemId == "stop") {
 
   		browser.webNavigation.onCommitted.removeListener(committed);
+
+  		browser.tabs.reload();
   	}
 
 });
