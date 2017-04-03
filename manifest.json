@@ -1,8 +1,8 @@
 {
 
     "manifest_version": 2,
-    "name": "Sheetmusic Generator",
-    "version": "1.0",
+    "name": "Note-ify",
+    "version": "1",
 
     "description": "firefox plug-in that turns web text into musical notation",
 
@@ -23,7 +23,9 @@
 
     "web_accessible_resources": [
         "OpusStd.otf",
-        "images/5-line-staff.png"
+        "images/5-line-staff.png",
+        "images/notehead-36pt.png",
+        "images/halfnote-36pt.png"
     ]
 
 }

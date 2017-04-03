@@ -1,15 +1,11 @@
-# Sheetmusic Generator
+# Note-ify
 
 ![](images/after.png)
 
-the sheetmusic generator is a plug-in for firefox made by [jen hill](http://jh-sound.com) for [RAGE thormbones](http://www.ragethormbones.rocks/)
+Note-ify is a fire-fox plug-in created by [jen hill](http://jh-sound.com) for [RAGE thormbones](http://www.ragethormbones.rocks/) that turns any website into musical notation
 
-![](images/before.png)
 
-after installing the plug-in, simply ctrl+click or two-finger click anywhere on the desired webpage and select "Turn This Page Into Sheetmusic!"
+after installing the plug-in, simply ctrl+click or two-finger click anywhere on a webpage and select "Note-ify!" from the context menu and enjoy the beautiful music
 
-![](images/menu.png)
 
-from that moment on, all pages navigated to through clicking on a link will be automatically translated. to stop, ctrl+click and select "Please No More Sheetmusic!"
-
-![](images/no-more.png)
+once a page is Note-ified, all pages navigated to via link will be automatically Note-ified as well. to return to normal, unmusical web browsing, ctrl+click or two-finger click and select "Turn Off Note-ifications" from the context menu

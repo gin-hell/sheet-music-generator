@@ -1,7 +1,7 @@
 browser.contextMenus.create({
 
 	id: "generate",
-	title: "Turn This Page Into Sheetmusic!"
+	title: "Note-ify!"
 
 });
 
@@ -15,14 +15,16 @@ browser.contextMenus.onClicked.addListener(function(info, tab) {
    		browser.tabs.executeScript({
 
     		file: "generate.js"
+
     	});
+
 
     	browser.webNavigation.onCommitted.addListener(committed);
 
 	    browser.contextMenus.create({
 
 			id: "stop",
-			title: "Please No More Sheetmusic!"
+			title: "Turn Off Note-ifications"
 
 		});	
   	}
@@ -31,8 +33,6 @@ browser.contextMenus.onClicked.addListener(function(info, tab) {
 
   		browser.webNavigation.onCommitted.removeListener(committed);
   	}
-
-
 
 });
 

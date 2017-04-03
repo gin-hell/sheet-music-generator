@@ -34,11 +34,11 @@ function findTextNodes(current) {
 }
 
 document.body.style.fontFamily = "jenFont";
-console.log("done changing font");
+// console.log("done changing font");
 
 findTextNodes(document.body);
-console.log(textNodes);
-console.log("done getting text nodes");
+// console.log(textNodes);
+// console.log("done getting text nodes");
 
 for (var i = 0; i < textNodes.length; i++) {
 
@@ -57,6 +57,6 @@ for (var i = 0; i < textNodes.length; i++) {
 	}
 	textNodes[i].nodeValue = text;
 };
-console.log("done changing letters");
+// console.log("done changing letters");
 
 
