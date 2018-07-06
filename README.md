@@ -5,7 +5,7 @@
 Note-ify is a Firefox add-on created by [jen hill](http://jh-sound.com) for [RAGE thormbones](http://www.ragethormbones.rocks/) that turns any website into musical notation.
 
 
-To install Note-ify, download [Note-ify.xpi](Note-ify.xpi). Then navigate to about:addons and select "Install Add-on From File..." from the settings menu at the top of the page and choose Note-ify.xpi.
+To install Note-ify, download [Note-ify.xpi](Note-ify_3.0.xpi). Then navigate to about:addons and select "Install Add-on From File..." from the settings menu at the top of the page and choose Note-ify.xpi.
 
 ![](images/install.png)
 
