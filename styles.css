@@ -3,11 +3,3 @@
 	src: url(OpusStd.otf)
 }
 
-html {
-	cursor: url(images/notehead-36pt.png), default;
-}
-
-a {
- 	cursor: url(images/halfnote-36pt.png), default;
-}
-
